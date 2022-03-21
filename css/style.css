@@ -1,0 +1,90 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: white;
+    margin-left: 90px;
+    
+
+}
+/* common styles end  */
+
+/* nav starts */
+nav{
+    display: flex;
+    margin-top: 20px;
+    
+    
+}
+.nav-title{
+    
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+    margin-bottom: 10px;
+}
+nav li{
+    list-style: none;
+    margin-right: 2em;
+   margin-top: 20px;
+    
+}
+.menu>ul{
+    display: flex;
+    margin-left: 200px;
+
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* header body starts */
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.right-half{
+    background-image:url(../images/Circle\ design.svg) ;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    
+
+
+}
+.right-half>img{
+    width: 250px;
+   height: 250px;
+   margin-left: 140px;
+
+
+}
+/* header bottom */
+
+.header-bottom{
+    margin-top: 69px;
+    margin-left:2px;
+    
+}
+.divider{
+    position: absolute;
+width: 900px;
+height: 1px;
+margin-top:-20px ;
+
+
+background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+
+}
+
+.header-bottom img{
+    display: inline-block;
+    margin-left: 2em;
+    
+    
+}
