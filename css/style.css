@@ -3,9 +3,12 @@
 
 /* common styles */
 body{
+    margin: 0;
+}
+main,header{
     font-family: 'Poppins', sans-serif; 
     background-color: white;
-    margin-left: 90px;
+    margin-left: 50px;
     
 
 }
@@ -38,6 +41,7 @@ nav li{
    margin-top: 20px;
     
 }
+
 .menu>ul{
     display: flex;
     margin-left: 200px;
@@ -51,6 +55,9 @@ nav li{
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
+}
+.menu>ul>li>a:hover{
+    color: #df87a7;
 }
 /* header body starts */
 .header-container{
@@ -126,7 +133,8 @@ background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 2
 .products-gallery{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 20px;
+    
+    grid-row-gap: 40px;
     
 
 }
@@ -185,6 +193,11 @@ box-shadow:5px 5px 50px 5px #AAAAAA ;
     margin-right:20px;
 
 }
+.SeeMore>a:hover{
+    color: rgb(75, 71, 71);
+    
+
+}
 .arrow-icon{
     position: relative;
     margin-left: 10px;
@@ -224,5 +237,39 @@ background-color:#E02C6D ;
     position: relative;
     left: 10px;
 }
+
+/* footer starts */
+footer{
+margin-top: 100px;
+width:100%;;
+height: 270px;
+background-color: black;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.footer-description{
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+.footer-description>p{
+    margin-top: -10px;
+}
+.footer-icon>ul{
+    display: flex;
+    gap: 70px;
+}
+.footer-icon>ul>li{
+    list-style: none;
+}
+
+
+
+
 
 
