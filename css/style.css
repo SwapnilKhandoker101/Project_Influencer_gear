@@ -9,6 +9,12 @@ body{
     
 
 }
+.fa-star{
+    color: goldenrod;
+
+}
+
+
 /* common styles end  */
 
 /* nav starts */
@@ -107,3 +113,116 @@ background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 2
     
     
 }
+/* header ends */
+/* main starts */
+/* products */
+.products-title{
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+.products-gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    
+
+}
+.item-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+height: 400px;
+background-color: whitesmoke;
+border-radius: 15px;
+box-shadow:5px 5px 50px 5px #AAAAAA ; 
+    
+
+    
+
+}
+.item>img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.item{
+    padding: 20px;
+}
+
+
+.item>h4{
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+}
+.item>h5{
+    position: relative;
+    top: -40px;
+}
+.item>span{
+    position: relative;
+    top: -60px;
+}
+.item>p{
+    position:relative;
+    top: -70px;
+}
+
+/* see more button starts */
+.SeeMore>a{
+    text-decoration: none;
+    color:#E02C6D;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+    margin-top: 50px;
+    margin-right:20px;
+
+}
+.arrow-icon{
+    position: relative;
+    margin-left: 10px;
+}
+/* featured product */
+
+.featured-product{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.featured-products-button{
+    width: 155px;
+height: 44px;
+background-color:#E02C6D ;
+
+
+    
+}
+.featured-products-button:hover{
+    background-color: #df87a7;
+}
+.featured-products-button a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    
+
+    
+    
+}
+.featured-arrow{
+    position: relative;
+    left: 10px;
+}
+
+
